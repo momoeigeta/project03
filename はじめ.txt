@@ -1,0 +1,14 @@
+echo "# project03" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/momoeigeta/project03.git
+git push -u origin main
+
+
+パスワード(アクセストークン）
+・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
+
+その後
+git remote set-url origin https://momoeigeta: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@github.com/momoeigeta/project03.git
